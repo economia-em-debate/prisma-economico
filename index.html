@@ -416,6 +416,16 @@ footer a {
 
 }
 
+.cards-grid{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto 0 auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    gap:35px;
+}
+
 </style>
 </head>
 
@@ -541,40 +551,46 @@ Mudança estrutural, industrialização, desigualdade, restrição externa e est
 
 <!-- SEÇÃO ARTIGOS E PESQUISAS -->
 <section class="section-title" id="pesquisas" style="margin-top: 110px;">
+
     <h2>Artigos e Pesquisas</h2>
+
     <p>
         Compilado de relatórios técnicos, resumos expandidos e artigos científicos resultantes de investigações acadêmicas aprofundadas e projetos de iniciação científica vigentes na UFMT.
     </p>
 
-<a href="densidade-capitalista.html" class="card-link">
-
-<div class="card new-post">
-
-<span class="badge-new">NOVO</span>
-
-<div class="card-category">
-Artigos
-</div>
-
-<h3>
-Densidade capitalista no século XXI
-</h3>
-
-<p>
-Uma analise crítica acerca da densidade
-capitalista no estado de Mato Grosso no século XXI.
-</p>
-
-<span class="read-more">
-Ler artigo →
-</span>
-
-</div>
-
-</a>
-    
 </section>
 
+
+<!-- GRID DE ARTIGOS -->
+<section class="cards-grid">
+
+    <a href="densidade-capitalista.html" class="card-link">
+
+        <div class="card new-post">
+
+            <span class="badge-new">NOVO</span>
+
+            <div class="card-category">
+                Artigos
+            </div>
+
+            <h3>
+                Densidade capitalista no século XXI
+            </h3>
+
+            <p>
+                Uma análise crítica acerca da densidade capitalista no estado de Mato Grosso no século XXI.
+            </p>
+
+            <span class="read-more">
+                Ler artigo →
+            </span>
+
+        </div>
+
+    </a>
+
+</section>
 
 <!-- SEÇÃO DIÁLOGOS -->
 <section id="dialogos" class="dialogos-section">
